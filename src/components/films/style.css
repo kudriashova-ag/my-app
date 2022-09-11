@@ -1,0 +1,32 @@
+.title{
+  text-align: center;
+  color: dodgerblue;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex>div{
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+.active-film{
+  border: 1px dodgerblue solid
+}
+
+.search-form{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.search-form input{
+  padding: 15px;
+}
